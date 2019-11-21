@@ -1,6 +1,6 @@
 # MTG_Recommender
 
-***Author: [Creighton Ashton](https://www.linkedin.com/in/creightonashton/)
+**Author: [Creighton Ashton](https://www.linkedin.com/in/creightonashton/)**
 
 ---
 
@@ -28,22 +28,20 @@ text
 ### 1. Cleaning
 
 text
-**Below are the Jupyter Notebooks for Data Collection:**
-- [Cleaning Notebook](./Code/01 - Cleaning.ipynb)
+
+- [Cleaning Notebook](./Code/01-Cleaning.ipynb)
 
 ### 2. EDA
 
 text
 
-**Below are the Jupyter Notebooks for Data Cleaning & Merging:**
-- [EDA](./Code/02 - EDA.ipynb)
+- [EDA](./Code/02-EDA.ipynb)
 
 ### 3. Recommender System
 
 text
 
-**Below are the Jupyter Notebook for EDA:**
-- [Recommender System](./Code/03 - Recommender system.ipynb)
+- [Recommender System](./Code/03-Recommender_system.ipynb)
 
 
 ## Conclusion
