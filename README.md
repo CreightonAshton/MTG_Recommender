@@ -1,4 +1,4 @@
-# MTG_Recommender
+# MTG Recommender
 
 **Author: [Creighton Ashton](https://www.linkedin.com/in/creightonashton/)**
 
