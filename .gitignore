@@ -1,3 +1,6 @@
 **/.ipynb_checkpoints
 **/.DS_store
-Data/scryfall-default-cards.json
+Data/recommender_df.csv
+Data/MTG_Recommender.db
+Data/converted_df.csv
+Data/filter_rec_df.pkl

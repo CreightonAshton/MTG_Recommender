@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Magic: The Gathering Card Recommender</title>
+</head>
+<body>
+	<form action="/submit">
+		<p>
+			<label for="card">Enter a Card</label><br>
+			<input type="text" name="card"><br>
+			<br>
+      <label for="format">Filter by Format</label><br>
+      <select name="format">
+				<option value="standard">Standard</option>
+				<option value="pioneer">Pioneer</option>
+				<option value="modern">Modern</option>
+				<option value="commander">Commander</option>
+				<option value="oldschool">Old School</option>
+				<option value="duel">Duel</option>
+				<option value="legacy">Legacy</option>
+				<option value="historic">Historic</option>
+				<option value="pauper">Pauper</option>
+				<option value="future">Future</option>
+				<option value="brawl">Brawl</option>
+				<option value="penny">Penny</option>
+				<option value="vintage">Vintage</option>
+			</select>
+		</p>
+		<p><button type="submit">Submit</button></p>
+	</form>
+</body>
+</html>

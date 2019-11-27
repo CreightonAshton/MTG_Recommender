@@ -55,3 +55,4 @@ Text
 - [ScryFall Card Data](https://scryfall.com/docs/api/bulk-data)  
 - [Scryfall Oracle Cards](https://archive.scryfall.com/json/scryfall-oracle-cards.json)  
 - [MTG Wiki](https://mtg.gamepedia.com/Main_Page)  
+- [SQLite](https://www.sqlite.org/index.html)
