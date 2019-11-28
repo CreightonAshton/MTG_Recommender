@@ -46,14 +46,20 @@ def submit():
     df = pickle.load(open('../Data/filter_rec_df.pkl', 'rb'))
 
     # make recommendation based on the user data
-    rec_cards = list(df.loc[df['legalities_' + form] == 1][user_input].sort_values()[1:6].index)
+    rec_cards = list(df.loc[df['legalities_' + form] == 1][user_input].sort_values()[1:11].index)
     card1 = rec_cards[0]
     card2 = rec_cards[1]
     card3 = rec_cards[2]
     card4 = rec_cards[3]
     card5 = rec_cards[4]
+    card6 = rec_cards[5]
+    card7 = rec_cards[6]
+    card8 = rec_cards[7]
+    card9 = rec_cards[8]
+    card10 = rec_cards[9]
+
     # return the prediction in the template
-    return render_template('results.html', rec_cards_1 = card1, rec_cards_2 = card2, rec_cards_3 = card3, rec_cards_4 = card4, rec_cards_5 = card5)
+    return render_template('results.html', rec_cards_1 = card1, rec_cards_2 = card2, rec_cards_3 = card3, rec_cards_4 = card4, rec_cards_5 = card5, rec_cards_6 = card6, rec_cards_7 = card7, rec_cards_8 = card8, rec_cards_9 = card9, rec_cards_10 = card10)
     # return render_template('results.html', prediction=round(pred[0], 2))
 
 # run the app
