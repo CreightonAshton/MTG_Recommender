@@ -61,3 +61,4 @@ There are several things that could be improved upon here. One stretch goal woul
 - [ScryFall Card Data](https://scryfall.com/docs/api/bulk-data)  
 - [Scryfall Oracle Cards](https://archive.scryfall.com/json/scryfall-oracle-cards.json)  
 - [MTG Wiki](https://mtg.gamepedia.com/Main_Page)  
+- [Magic: The Gathering is Turing Complete](https://arxiv.org/pdf/1904.09828.pdf)  
