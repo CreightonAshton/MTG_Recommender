@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import pickle
 from flask import Flask, request, render_template, jsonify
-from sqlalchemy import create_engine
 
 # initialize the flask app
 app = Flask('MTGRecommender')
