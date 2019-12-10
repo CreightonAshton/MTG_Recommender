@@ -44,7 +44,13 @@ The recommender system was built piece by piece starting with just considering t
 
 - [Recommender System](./Code/03-Recommender_system.ipynb)
 
-### 4. Flask App
+### 4. Filter
+
+Currently scratch work for building out a more robust filtering method.
+
+- [Filter](./Code/04-Filter.ipynb)
+
+### 5. Flask App
 
 The flask app is fairly simple and imports the final recommender system table as a pickled object then takes the user-inputted card along with a selected format and looks up on the recommender table the top 10 most similar cards filtered by format and returns the results.
 
