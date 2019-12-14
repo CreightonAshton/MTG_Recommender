@@ -28,6 +28,7 @@ def submit():
     # connect to SQL database
     conn = sqlite3.connect('../Data/MTG_Recommender.db')
 
+
     raw_data = request.args
 
     # format the user input
