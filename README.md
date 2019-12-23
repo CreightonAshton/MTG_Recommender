@@ -25,6 +25,7 @@ Codes are written in Jupyter Notebook with Python. Users are recommended to know
 ## Content with Jupyter Notebooks
 
 
+
 ### 1. Cleaning
 
 The raw [data](https://archive.scryfall.com/json/scryfall-oracle-cards.json) from Scryfall is in the format of nested JSON objects so there is quite a bit of cleaning to be done. To start I dropped any unneeded columns and through some EDA filtered and removed any cards that are either not legal or are considered other cards. For example the raw data includes tokens, archenemy cards, avatar cards (cards that only exist on Magic: Online for a specific game type and not actual magic cards), joke cards (unstable, unhinged, unglued, etc.), and even oversized cards (promotional cards that are 10 times larger than normal). I also had to break out data from the nested JSON objects in regards to double-faced/dual cards so that each row in the final clean version of the table is a single magic card and each column is an attribute of that card. This means that there will be many empty values for cards that don't have certain attributes that other cards have. For example instants and sorceries don't have any power or toughness, though creatures do. So, for now those cells will be imputed as 'NONE'. This process is broken down even further in the cleaning notebook.
