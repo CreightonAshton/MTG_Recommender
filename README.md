@@ -15,7 +15,6 @@ Building a deck in Magic can be difficult. There have been nearly 20,000 differe
 The goal of this project is to develop a flask app where a user can input a Magic: The Gathering card and select a format, then the recommender system will return the top 10 most similar cards to the user-inputted card legal in the format they selected. The card data will be collected from Scryfall's open source [bulk data.](https://archive.scryfall.com/json/scryfall-oracle-cards.json) From there the data needs to be cleaned and formatted by removing unneeded card attributes and using certain regular expressions to format the oracle text of each card. Once cleaned I'll be using CountVectorizer to convert the oracle text into numerical data and using a variance threshold to reduce the data to only the most relevant words. After converting all the data to numerical versions a recommender system can be built using cosine similarity. Then a custom filter table can be tacked on to the recommender table to assist with filtering. Finally a flask app can be built using a pickled final version of the recommender system table.
 
 
-
 ## Software Requirements
 
 Codes are written in Jupyter Notebook with Python. Users are recommended to know the Python libraries `Numpy`, `Pandas`, `Scikit-learn`, `nltk`, visualization with `matplotlib` and `seaborn`.
