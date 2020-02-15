@@ -54,8 +54,8 @@ def submit():
     filtered_list = list(pd.read_sql_query(sql, conn)['name'].values)
 
     # make recommendation based on the user data
-    #rec_cards = list(df.loc[df['legalities_' + form] == 1][user_input].sort_values()[0:11].index)
-    rec_cards = df[filtered_list].T['Shock'].sort_values()[0:11].index
+    rec_cards = list(df.loc[df['legalities_' + form] == 1][user_input].sort_values()[0:11].index)
+    #rec_cards = df[filtered_list].T['Shock'].sort_values()[0:11].index
 
     # error checking to see if the user-inputted card is the same as the first recommended card
     if rec_cards[0] == user_input:
