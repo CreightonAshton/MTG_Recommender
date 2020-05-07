@@ -46,7 +46,7 @@ The recommender system was built piece by piece starting with just considering t
 
 ### 4. Filter
 
-Currently scratch work for building out a more robust filtering method.
+Combining both Python and SQL, this section is designed to help build a card filtering system to improve accuracy of the flask app.
 
 - [Filter](./Code/04-Filter.ipynb)
 
