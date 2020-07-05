@@ -4,5 +4,6 @@ Data/recommender_df.csv
 Data/converted_df.csv
 Data/filter_rec_df.pkl
 Data/scryfall-oracle-cards.json
+Data/oracle-cards-20200704050652.json
 Files/demo.mov
 *.png
